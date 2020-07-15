@@ -1,0 +1,12 @@
+{
+    "name": "ModuleSemple",
+    "version": "0.0.1",
+    "author": "Rurick <rurick80@gmail.com>",
+    "license": "ISC",
+    "description": "JS Module exsample",
+    "main": "app.js",
+    "dependencies": {
+        "express": "4.17.1",
+        "pug": "3.0.0"
+    }
+}
