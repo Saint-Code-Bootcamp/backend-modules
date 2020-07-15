@@ -6,7 +6,9 @@ const port = 3000;
 const host = 'localhost'; 
 
 app.get('/', (req, res) => {
-
+    const compiledFunction = pug.compileFile('templates/index.pug');
+    const resp = compiledFunction();
+    res.send(resp);
 });
 
 app.listen(port, host, () => {
